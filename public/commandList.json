@@ -154,7 +154,7 @@
                     "source":"DrawMeme",
                     "title":"灰白照生成器",
                     "command":"#bw +文字+图片（若没有图片则要求获取）",
-                    "img":"https://img1.imgtp.com/2022/07/13/GvBcgOmY.png"
+                    "img":"https://img1.imgtp.com/2022/07/14/wGU2FQ3p.png"
                 },
                 {
                     "source":"DrawMeme",
@@ -166,13 +166,13 @@
                     "source":"DrawMeme",
                     "title":"5k兆",
                     "command":"#5000兆|#5k兆+文字/#5000兆|#5k兆+文字+文字",
-                    "img":"https://img1.imgtp.com/2022/07/13/GvBcgOmY.png"
+                    "img":"https://img1.imgtp.com/2022/07/14/DcEIasEh.png"
                 },
                 {
                     "source":"DrawMeme",
                     "title":"0%生成器",
                     "command":"#0+图片",
-                    "img":"https://img1.imgtp.com/2022/07/13/9owbK6zi.png"
+                    "img":"https://img1.imgtp.com/2022/07/14/PCcxLjoc.png"
                 },
                 {
                     "source":"DrawMeme",
@@ -203,6 +203,12 @@
                     "title":"epic白嫖",
                     "command":"白嫖",
                     "img":"https://img1.imgtp.com/2022/07/13/0mocheDt.png"
+                },
+                {
+                    "source":"忘了(●'◡'●)",
+                    "title":"点歌",
+                    "command":"#音乐/网易/qq/酷狗 ***",
+                    "img":"https://img1.imgtp.com/2022/07/14/k5w3Y2nA.png"
                 }
    ]
 }

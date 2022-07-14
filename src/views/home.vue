@@ -4,14 +4,14 @@
       <div>
         <top />
       </div>
-      <div class="left col-sm-3">
+      <div class="left col-sm-3 animate__animated animate__slideInUp">
         <left />
       </div>
-      <div class="right col-sm-9">
+      <div class="right col-sm-9 animate__animated animate__slideInUp">
         <right :loadingStuta="loading"/>
       </div>
     </div>
-    <div class="onLoad" v-if="loading" id="loading">
+    <div class="onLoad animate__animated animate__fadeOutUp" v-if="loading">
     </div>
   </div>
 
@@ -38,10 +38,11 @@ export default {
     this.loading=false
    }, 1000);
   //  let num = Math.round(Math.random()*8)
-  //  let array = ["../assets/loadingBk/00\ \(1\).jpg","../assets/loadingBk/00\ \(2\).jpg",
-  //  "../assets/loadingBk/00\ \(3\).jpg","../assets/loadingBk/00\ \(4\).jpg",
-  //  "../assets/loadingBk/00\ \(5\).jpg","../assets/loadingBk/00\ \(6\).jpg",
-  //  "../assets/loadingBk/00\ \(7\).jpg","../assets/loadingBk/00\ \(8\).jpg",]
+   let array = ["../assets/loadingBk/00\ \(1\).jpg","../assets/loadingBk/00\ \(2\).jpg",
+   "../assets/loadingBk/00\ \(3\).jpg","../assets/loadingBk/00\ \(4\).jpg",
+   "../assets/loadingBk/00\ \(5\).jpg","../assets/loadingBk/00\ \(6\).jpg",
+   "../assets/loadingBk/00\ \(7\).jpg","../assets/loadingBk/00\ \(8\).jpg",]
+   console.log(array);
   },
   methods: {
     }

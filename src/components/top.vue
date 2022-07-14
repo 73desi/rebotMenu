@@ -10,7 +10,7 @@
       </div>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a id="timer"></a></li>
+        <li><a id="timer">{{timer}}</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </nav>
@@ -24,6 +24,7 @@ export default {
   data() {
     return {
       status: 0,
+      timer:'',
     }
   },
   mounted() {
@@ -67,7 +68,7 @@ export default {
         seconds = "0" + seconds;
       }
       //拼接格式化当前时间
-      document.getElementById("timer").innerHTML = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+      _this.timer = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
     }
   },
   beforeDestroy() {

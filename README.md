@@ -1,19 +1,12 @@
-# blog
+# blog项目
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 下载依赖
+```npm install
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 运行
+```npm run serve
+
+
+#  所有命令都是存储在public/commandList.json中

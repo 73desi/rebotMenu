@@ -1,7 +1,7 @@
 <template>
   <div class="rightBody">
     <div class="thumbnail top">
-      <img src="../assets/logo.jpg" alt="" class="img-circle img-thumbnail">
+      <img src="https://img1.imgtp.com/2022/07/14/I6OEP7K8.jpg" alt="" class="img-circle img-thumbnail">
       <h1>73の窝</h1>
       <ul class="list-group">
         <li v-for="(item, index) in ability" :key="index" class="list-group-item">
