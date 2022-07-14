@@ -209,6 +209,12 @@
                     "title":"点歌",
                     "command":"#音乐/网易/qq/酷狗 ***",
                     "img":"https://img1.imgtp.com/2022/07/14/k5w3Y2nA.png"
+                },
+                {
+                    "source":"忘了(●'◡'●)",
+                    "title":"哔哩哔哩卡片转换",
+                    "command":"无",
+                    "img":"https://img1.imgtp.com/2022/07/14/sSYLs63r.png"
                 }
    ]
 }
