@@ -1,12 +1,20 @@
-# blog项目
+# menu项目
 
 
-# 下载依赖
-```npm install
+### 下载依赖
+```
+npm install
+```
 
+### 运行项目
 
-# 运行
-```npm run serve
+```
+npm run serve
+```
 
+### 打包
 
-#  所有命令都是存储在public/commandList.json中
+```
+npm run build
+```
+
