@@ -19,8 +19,8 @@
     'webkitHidden' in document ? 'webkitHidden' :    
     'mozHidden' in document ? 'mozHidden' :    
     null;
-var visibilityChangeEvent = hiddenProperty.replace(/hidden/i, 'visibilitychange');
-var onVisibilityChange = function(){
+    var visibilityChangeEvent = hiddenProperty.replace(/hidden/i, 'visibilitychange');
+    var onVisibilityChange = function(){
     if (!document[hiddenProperty]) {    
       document.title="欢迎ヾ(≧▽≦*)o"
     }else{

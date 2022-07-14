@@ -37,13 +37,14 @@ export default {
    setTimeout(() => {
     this.loading=false
    }, 1000);
-   let num = Math.round(Math.random()*8)
-   let array = ["../assets/loadingBk/00\ \(1\).jpg","../assets/loadingBk/00\ \(2\).jpg",
-   "../assets/loadingBk/00\ \(3\).jpg","../assets/loadingBk/00\ \(4\).jpg",
-   "../assets/loadingBk/00\ \(5\).jpg","../assets/loadingBk/00\ \(6\).jpg",
-   "../assets/loadingBk/00\ \(7\).jpg","../assets/loadingBk/00\ \(8\).jpg",]
-   console.log(array[num])
-  }
+  //  let num = Math.round(Math.random()*8)
+  //  let array = ["../assets/loadingBk/00\ \(1\).jpg","../assets/loadingBk/00\ \(2\).jpg",
+  //  "../assets/loadingBk/00\ \(3\).jpg","../assets/loadingBk/00\ \(4\).jpg",
+  //  "../assets/loadingBk/00\ \(5\).jpg","../assets/loadingBk/00\ \(6\).jpg",
+  //  "../assets/loadingBk/00\ \(7\).jpg","../assets/loadingBk/00\ \(8\).jpg",]
+  },
+  methods: {
+    }
 }
 </script>
 <style scoped>
